@@ -1,0 +1,30 @@
+.ContainetVar{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 3px solid chocolate;
+    box-shadow: 5px 5px 15px chocolate; /* Sombra */
+}
+.NameInicio{
+    width: 62%;
+    justify-content: left;
+   margin-left: 30px;
+   margin-top: -10px;
+}
+.Menu{
+    list-style: none;
+    display: flex;
+   gap: 2rem;
+   justify-content: right;
+   margin-right: 10px; 
+
+}
+ a {
+    color: white; 
+    text-decoration: none;
+}
+li :hover{
+    color: rgb(223, 135, 72);;
+}
