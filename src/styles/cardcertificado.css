@@ -3,3 +3,50 @@
     font-size: 20px;
    margin-left: -25px;
  }
+ .skill{
+  position: relative;
+ }
+ 
+
+ .title {
+  position: absolute;
+  bottom: 50px;
+  left: 120px;
+
+  transform: translateX(-50%);
+  background-color: chocolate;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+ .skill:hover .title {
+  visibility: visible;
+  opacity: 1;
+}
+
+.univ {
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+
+  transform: translateX(-50%);
+  background-color: chocolate;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.skill:hover .univ {
+  visibility: visible;
+  opacity: 1;
+}
