@@ -51,10 +51,13 @@ const styles = {
     overflow: "hidden",
   },
   image: {
-    
+    margin: "0",
     width: "85%",
     height: "70%",
     objectFit: "cover",
+    
+    marginBottom: "10px",
+    padding: "5px",
     borderRadius:"20%",
     border: "3px solid chocolate",
     boxShadow: "5px 5px 15px chocolate",

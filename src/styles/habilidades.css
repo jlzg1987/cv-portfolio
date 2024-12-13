@@ -40,7 +40,7 @@
 .lgFront,
 .lgBack,
 .lgframe {
-  width: 100%;
+  width: 95%;
   height: 60px;
   padding: 10px;
   background-color: rgba(210, 105, 30, 0.178);
@@ -48,7 +48,7 @@
 .lgimgfront,
 .lgimgBack,
 .lgimgFrame {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: center;
   gap: 1rem;
