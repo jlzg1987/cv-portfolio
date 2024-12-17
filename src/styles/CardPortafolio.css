@@ -7,7 +7,8 @@
 
 .card {
     border: 1px solid chocolate;
-    border-radius: 8px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     padding: 16px;
     width: 300px;
     text-align: center;
@@ -17,6 +18,13 @@
 .card-image {
     max-width: 100%;
     border-radius: 8px;
+    border-bottom: 2px solid chocolate;
+    border-right: 2px solid chocolate;
+}
+.card-image:hover {
+    width: 350px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 
 .card-title {

@@ -4,21 +4,24 @@ import Principal from './pages/principal'
 import AbautMe from './pages/abautMe'
 import Habilidades from './pages/habilidades'
 import Portafolio from './pages/portafolio'
+import Contacto from './pages/ContactPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='ConterMain'> 
-   
-          <BarMainPager/>
-          <Principal/>
-          <AbautMe/>
-          <Habilidades/>
-          <Portafolio/>
-      </div>
+      <div className='ConterMain'>
+
+        <BarMainPager />
+        <Principal />
+        <AbautMe />
+        <Habilidades />
+        <Portafolio />
       
+        <Contacto />
+
+      </div>
+
     </>
   )
 }

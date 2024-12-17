@@ -25,7 +25,7 @@ function CardCertifi() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); // Cambia cada 15 segundos
+    }, 8000); // Cambia cada 8 segundos
     return () => clearInterval(interval); // Limpia el intervalo al desmontar
   }, [images.length]);
   return (
