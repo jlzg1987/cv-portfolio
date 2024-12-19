@@ -12,6 +12,7 @@
 
 
 .btn {
+
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -122,3 +123,23 @@
         top: -10%;
     }
 }
+.tool {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+  
+    transform: translateX(-50%);
+    background-color: rgba(210, 105, 30, 0.514);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 8px;
+    white-space: nowrap;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .btn:hover .tool {
+    visibility: visible;
+    opacity: 1;
+  }
