@@ -7,7 +7,7 @@ function abautMe() {
     return (
         <>
             <div id='aboutMe' className='container'>
-                <h1>Acerca de Me</h1>
+                <h1>Acerca de Mí</h1>
 
                 <div className='fondo'>
                     < img src={Phone} alt="" />

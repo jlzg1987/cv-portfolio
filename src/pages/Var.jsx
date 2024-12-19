@@ -5,7 +5,7 @@ function Var() {
   return (
 
     <div className='ContainetVar'>
-        <div className='NameInicio'>
+        <div id='inicio' className='NameInicio'>
           <a href="#aboutMe">
             <h2 className='name'>José Luis Zambrano</h2>
           </a>

@@ -5,6 +5,9 @@ import AbautMe from './pages/abautMe'
 import Habilidades from './pages/habilidades'
 import Portafolio from './pages/portafolio'
 import Contacto from './pages/ContactPage'
+import Piepagina from './pages/piepagina'
+import ToolBar from './pages/toolBar'
+import SolLuna from './pages/solLuna'
 
 function App() {
 
@@ -14,12 +17,14 @@ function App() {
  
 
         <BarMainPager />
+        <ToolBar/>
+        <SolLuna/>
         <Principal />
         <AbautMe />
         <Habilidades />
         <Portafolio />
-      
         <Contacto />
+        <Piepagina/>
 
       </div>
 

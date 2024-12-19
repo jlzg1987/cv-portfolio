@@ -279,12 +279,7 @@ function habilidades() {
                         <span className="tooltip" >3 Años de Experiencia </span>
 
                     </div>
-                    <div className="skill-icon">
-                        <i class='bx bxl-github icon'></i>
-                        <h6 className="text">GitHub</h6>
-                        <span className="tooltip" >3 Años de Experiencia </span>
-
-                    </div>
+            
                   
                 </div>
             </div>
