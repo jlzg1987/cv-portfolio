@@ -15,10 +15,13 @@ function principal() {
     <>
       <div className='containermain'>
         <div className="downCV" style={{ textAlign: "center", marginTop: "20px" }}
-          onClick={handleDownload}
+
         >
-          <p>Mi CV</p>
-          <i class='bx bxs-cloud-download'></i>
+          <a href="../down/JoseZambranoCV.pdf" download={"JoseZambranoCV.pdf"} title='Descarga CV'>
+            <p>Mi CV</p>
+            <i class='bx bxs-cloud-download'></i>
+          </a>
+
         </div>
         <div className='social'>
           <img className='photo' src={myPhoto} alt="" />

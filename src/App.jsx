@@ -17,8 +17,8 @@ function App() {
  
 
         <BarMainPager />
-        <ToolBar/>
         <SolLuna/>
+        <ToolBar/>
         <Principal />
         <AbautMe />
         <Habilidades />

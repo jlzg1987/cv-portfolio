@@ -26,7 +26,7 @@ function Piepagina() {
                         </a>
                     </div>
                 </div>
-                <h3 className="text">Hecho con ❤ por José Luis Zambrano González </h3>
+                <h3 className="text1">Hecho con ❤ por José Luis Zambrano González </h3>
             </div>
         </>
     );
