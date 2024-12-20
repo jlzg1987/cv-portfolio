@@ -2,7 +2,7 @@ import React from 'react'
 import 'boxicons/css/boxicons.min.css';
 import '../styles/principalstyles.css'
 import myPhoto from "../images/jlzg.jpg"
-import Certifi from '../components/CardCertifi'
+import Certifi from './CardCertifi'
 import { saveAs } from "file-saver";
 
 
