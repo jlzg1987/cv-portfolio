@@ -3,13 +3,10 @@ import 'boxicons/css/boxicons.min.css';
 import '../styles/principalstyles.css'
 import myPhoto from "../images/jlzg.jpg"
 import Certifi from './CardCertifi'
-import { saveAs } from "file-saver";
-
+import Down from '../down/JoseZambranoCV.pdf'
 
 function principal() {
-  const handleDownload = () => {
-    saveAs("/path/to/JoseZambranoCV.pdf", "JoseZambranoCV.pdf"); // Ruta y nombre del archivo
-  };
+;
 
   return (
     <>
@@ -17,7 +14,7 @@ function principal() {
         <div className="downCV" style={{ textAlign: "center", marginTop: "20px" }}
 
         >
-          <a href="../down/JoseZambranoCV.pdf" download={"JoseZambranoCV.pdf"} title='Descarga CV'>
+          <a href={Down} download={"JoseZambranoCV.pdf"} title='Descarga CV'>
             <p>Mi CV</p>
             <i class='bx bxs-cloud-download'></i>
           </a>
