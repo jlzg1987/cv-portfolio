@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 50px;
 }
 .telec{
     width: 90%;
@@ -26,18 +27,21 @@
    
 }
 .iconT{
-    padding-top: o;
+    padding-top: 20px;
     height: 100%;
-
+    margin-top: 40px;
     margin-left: 20px;
     padding-right: 20px ;
     font-size: 40px;
-    border-right: 2px solid chocolate;
+    
+}
+.iconS{
+    margin-left: 30px;
 }
 .textT{
     display: flex;
     flex-direction: column;
-    
+    margin-top: -20px;
 }
 .parraf{
   margin: 0;

@@ -16,6 +16,7 @@ function Var() {
                 <li> <a className='MenuLinks' href='#aboutMe'>Acerca de mi</a> </li>
                 <li><a className='MenuLinks' href='#habilidades'>Habilidades</a></li> 
                 <li><a className='MenuLinks' href='#PortafolioA'>Portafolio</a></li>
+                <li><a className='MenuLinks' href="#telecomunicacionT">Telecomunicaciones</a></li>
                 <li><a className='MenuLinks' href='#contacto'>Contacto</a></li>
                 
             </ul>
