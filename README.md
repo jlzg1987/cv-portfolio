@@ -100,4 +100,4 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE).
 
 ## Autor
 
-Creado por **[Tu Nombre]**, un desarrollador apasionado por la tecnología y la innovación. ¡No dudes en conectarte
+Creado por Jose Luis Zambrano, un desarrollador apasionado por la tecnología y la innovación. ¡No dudes en conectarte
