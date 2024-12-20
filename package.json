@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite",
-    "start:App": "vite --config vite.config.js", 
-    "start:servidor": "node src/servidor.js"
+    "start:App": "vite --config vite.config.js"
    },
   "dependencies": {
     "body-parser": "^1.20.3",
