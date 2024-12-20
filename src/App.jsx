@@ -8,6 +8,7 @@ import Contacto from './pages/ContactPage'
 import Piepagina from './pages/piepagina'
 import ToolBar from './pages/toolBar'
 import SolLuna from './pages/solLuna'
+import Telecomunicaciones from './pages/telecomunicaciones'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <AbautMe />
         <Habilidades />
         <Portafolio />
+        <Telecomunicaciones/>
         <Contacto />
         <Piepagina/>
 

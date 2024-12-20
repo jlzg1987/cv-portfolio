@@ -26,6 +26,10 @@ function principal() {
         <div className='social'>
           <img className='photo' src={myPhoto} alt="" />
           <h1>FullStack Developer</h1>
+          <div className='cont'>
+            <i class='bx bxs-phone-call' ></i>
+            <h3>+593990445117</h3>
+          </div>
           <div > <a href="https://www.linkedin.com/in/jlzg/" target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none", color: "inherit" }}><i class='icoC bx bxl-linkedin ' style={{ fontSize: "48px" }}></i></a>
