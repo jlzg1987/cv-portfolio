@@ -1,5 +1,5 @@
 import React from 'react'
-import CardPortafolio from '@/components/CardPortafolio';
+import CardPortafolio from '../components/CardPortafolio';
 
 import '../styles/portafolio.css'
 
