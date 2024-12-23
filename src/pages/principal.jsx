@@ -16,7 +16,7 @@ function principal() {
         >
           <a href={Down} download={"JoseZambranoCV.pdf"} title='Descarga CV'>
             <p>Mi CV</p>
-            <i class='bx bxs-cloud-download'></i>
+            <i className='bx bxs-cloud-download'></i>
           </a>
 
         </div>
@@ -24,7 +24,7 @@ function principal() {
           <img className='photo' src={myPhoto} alt="" />
           <h1>FullStack Developer</h1>
           <div className='cont'>
-            <i class='bx bxs-phone-call' ></i>
+            <i className='bx bxs-phone-call' ></i>
             <h3>+593990445117</h3>
           </div>
           <div > <a href="https://www.linkedin.com/in/jlzg/" target="_blank"
@@ -34,7 +34,7 @@ function principal() {
             <a href="https://github.com/jlzg1987" target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "inherit" }}>
-              <i class='ico bx bxl-github' style={{ fontSize: "48px" }}></i>
+              <i className='ico bx bxl-github' style={{ fontSize: "48px" }}></i>
 
             </a>
 

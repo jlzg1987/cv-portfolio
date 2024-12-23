@@ -10,7 +10,7 @@ function Telecomunicaciones() {
                 <h1>Telecomunicaciones</h1>
                 <div className='telec'>
                     <div className='red '>
-                        <i class='bx bx-wifi iconT'></i>
+                        <i className='bx bx-wifi iconT'></i>
                         <div className='textT'>
                             <h2 className='tituloT'>Redes Inalambricas</h2>
                             <p className='parraf'>- Construcción de Estructuras para Torres de Telecomunicaciones</p>
@@ -21,7 +21,7 @@ function Telecomunicaciones() {
 
                     </div>
                     <div className='red '>
-                        <i class='bx bxs-server iconT' ></i>
+                        <i className='bx bxs-server iconT' ></i>
                         <div className='textT'>
                             <h2 className='tituloT'>Conocimientos en Centros de Datos (Data Centers)</h2>
                             <p className='parraf'>- Diseño y Administración de Data Centers</p>
@@ -43,7 +43,7 @@ function Telecomunicaciones() {
                      </div>
                     </div>
                     <div className='red '>
-                    <i class='bx bx-network-chart iconT'></i>
+                    <i className='bx bx-network-chart iconT'></i>
                     <div className='textT'>
                             <h2 className='tituloT'>Conocimientos en Redes Físicas y Estructuradas</h2>
                             <p className='parraf'>- Tendido y Conexión de Redes de Fibra Óptica                            </p>

@@ -12,18 +12,18 @@ function habilidades() {
                 </div>
                 <div className="lgimgfront">
                     <div className="skill-icon">
-                        <i class="bx bxl-html5 icon1"></i>
+                        <i className="bx bxl-html5 icon1"></i>
                         <h6 className="text">HTML</h6>
                         <span className="tooltip" >4 Años de Experiencia </span>
                     </div>
                     <div className="skill-icon">
-                        <i class="bx bxl-css3 icon1"></i>
+                        <i className="bx bxl-css3 icon1"></i>
                         <h6 className="text">CSS</h6>
                         <span className="tooltip" >4 Años de Experiencia </span>
 
                     </div>
                     <div className="skill-icon">
-                        <i class="bx bxl-javascript icon1"></i>
+                        <i className="bx bxl-javascript icon1"></i>
                         <h6 className="text">JavaScript</h6>
                         <span className="tooltip" >4 Años de Experiencia </span>
 
@@ -35,7 +35,7 @@ function habilidades() {
 
                     </div>
                     <div className="skill-icon">
-                        <i class="bx bxl-react icon1"></i>
+                        <i className="bx bxl-react icon1"></i>
                         <h6 className="text">REACT</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
 
@@ -68,17 +68,17 @@ function habilidades() {
                 </div>
                 <div className="lgimgBack">
                     <div className="skill-icon">
-                        <i class='bx bxl-nodejs iconB'></i>
+                        <i className='bx bxl-nodejs iconB'></i>
                         <h6 className="text">Node JS</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-firebase iconB'></i>
+                        <i className='bx bxl-firebase iconB'></i>
                         <h6 className="text">FireBase JS</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-postgresql iconB'></i>
+                        <i className='bx bxl-postgresql iconB'></i>
                         <h6 className="text">Postgre SQL</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
                     </div>
@@ -177,12 +177,12 @@ function habilidades() {
                         <span className="tooltip" >4 Años de Experiencia </span>
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-c-plus-plus iconB' ></i>
+                        <i className='bx bxl-c-plus-plus iconB' ></i>
                         <h6 className="text">C++ </h6>
                         <span className="tooltip" >4 Años de Experiencia </span>
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-visual-studio iconB' ></i>
+                        <i className='bx bxl-visual-studio iconB' ></i>
                         <h6 className="text">Visual Studio </h6>
                         <span className="tooltip" >6 Años de Experiencia </span>
                     </div>
@@ -213,7 +213,7 @@ function habilidades() {
 
                     </div>
                     <div className="skill-icon">
-                        <i class="bx bxl-angular icon1"></i>
+                        <i className="bx bxl-angular icon1"></i>
                         <h6 className="text">ANGULAR</h6>
                         <span className="tooltip" >1 Años de Experiencia </span>
 
@@ -249,14 +249,14 @@ function habilidades() {
 
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-redux icon1'></i>
+                        <i className='bx bxl-redux icon1'></i>
                         <h6 className="text">redux -JS</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
 
                     </div>
                     
                     <div className="skill-icon">
-                        <i class='bx bxl-bootstrap icon1'></i>
+                        <i className='bx bxl-bootstrap icon1'></i>
                         <h6 className="text">Bootstrap</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
 
@@ -268,13 +268,13 @@ function habilidades() {
 
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-figma icon1'></i>
+                        <i className='bx bxl-figma icon1'></i>
                         <h6 className="text">Figma</h6>
                         <span className="tooltip" >2 Años de Experiencia </span>
 
                     </div>
                     <div className="skill-icon">
-                        <i class='bx bxl-github icon1'></i>
+                        <i className='bx bxl-github icon1'></i>
                         <h6 className="text">GitHub</h6>
                         <span className="tooltip" >3 Años de Experiencia </span>
 
