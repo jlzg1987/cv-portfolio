@@ -18,15 +18,7 @@ function App() {
  
 
         <BarMainPager />
-        <SolLuna/>
-        <ToolBar/>
-        <Principal />
-        <AbautMe />
-        <Habilidades />
-        <Portafolio />
-        <Telecomunicaciones/>
-        <Contacto />
-        <Piepagina/>
+        
 
       </div>
 
