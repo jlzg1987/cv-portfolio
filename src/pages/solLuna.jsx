@@ -21,7 +21,7 @@ function SolLuna() {
   return (
     <div className="solluna-container">
       <button className={`solluna-button ${isDay ? "day" : "night"}`} onClick={toggleTheme}>
-        {isDay ? <i className='bx bxs-sun' ></i> : <i className='bx bxs-moon' ></i>}
+        {isDay ? <i className='bx bxs-sun sunmoon' ></i> : <i className='bx bxs-moon moonson' ></i>}
       </button>
     </div>
   );

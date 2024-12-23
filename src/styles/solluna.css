@@ -49,4 +49,11 @@ body.day-theme {
     box-shadow: 0px 5px 20px chocolate;
 
   }
-  
+  .sunmoon:hover{
+    font-size: 28px;
+    color: white;
+  }
+  .moonson:hover{
+    font-size: 28px;
+    color: chocolate;
+  }
