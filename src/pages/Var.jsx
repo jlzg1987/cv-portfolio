@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/varstyles.css'
 
 function Var() {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
   return (
 
     <div className='ContainetVar'>
@@ -22,11 +26,12 @@ function Var() {
             </ul>
         </div>
         <div className='menuScrunPhone'>
-          <button className='menuRalla'>
-          <i className='bx bx-menu'></i>
+          <button className='menuRalla' onClick={toggleMenu}>
+          {isMenuVisible ? <i className='bx bx-menu  Mostrar '></i>: <i className='bx bx-menu Ocultar '></i>}
+          
            </button>
         </div>
-        <div className='Menulateral'>
+        <div className={isMenuVisible ? 'visible' : 'hidden'}>
            <ul className='MenuColunna'>
                 <li> <a className='MenuLinks' href='#aboutMe'>Acerca de mí</a> </li>
                 <li><a className='MenuLinks' href='#habilidades'>Habilidades</a></li> 
