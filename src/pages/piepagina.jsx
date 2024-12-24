@@ -7,7 +7,8 @@ function Piepagina() {
                 <div className="social2">
                     <div > <a href="https://www.linkedin.com/in/jlzg/" target="_blank"
                         rel="noopener noreferrer"
-                        style={{ textDecoration: "none", color: "inherit" }}><i class='icoC bx bxl-linkedin ' style={{ fontSize: "48px" }}></i></a>
+                        style={{ textDecoration: "none", color: "inherit" }}>
+                            <i className='icoC bx bxl-linkedin ' style={{ fontSize: "48px" }}></i></a>
 
                         <a href="https://github.com/jlzg1987" target="_blank"
                             rel="noopener noreferrer"
