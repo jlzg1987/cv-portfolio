@@ -1,6 +1,6 @@
 
 import Utelvt from '../images/utelvt.jpeg'
-import TechU from '../images/tech.PNG'
+import TechU from '../images/tech.png'
 import Academlo from '../images/academlo.png'
 import React, { useState, useEffect } from "react";
 import '../styles/cardcertificado.css'
