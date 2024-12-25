@@ -1,44 +1,53 @@
-.ContainetVar{
+.ContainetVar {
     width: 100%;
     height: 60px;
     border-radius: 10px;
     display: flex;
     gap: 1rem;
     border-bottom: 3px solid chocolate;
-    box-shadow: 5px 5px 15px chocolate; /* Sombra */
+    box-shadow: 5px 5px 15px chocolate;
+    /* Sombra */
 }
-.NameInicio{
+
+.NameInicio {
     width: 62%;
     justify-content: left;
-   margin-left: 30px;
-   margin-top: -10px;
-   
-}
-.MenuBar{
-    width: 60%;
-}
-.Menu{
-    list-style: none;
-    display: flex;
-   gap: 2rem;
-   justify-content: right;
-   margin-right: 10px; 
+    margin-left: 30px;
+    margin-top: -10px;
 
 }
- a {
-    color: white; 
+
+.MenuBar {
+    width: 60%;
+}
+
+.Menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
+    margin-right: 10px;
+
+}
+
+a {
+    color: white;
     text-decoration: none;
 }
-li :hover{
-    color: rgb(223, 135, 72);;
+
+li :hover {
+    color: rgb(223, 135, 72);
+
 }
-.menuScrunPhone{
+
+.menuScrunPhone {
     position: relative;
     display: none;
     background-color: transparent;
     margin-right: -10px;
 }
-.menuRalla{
+
+.menuRalla {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,30 +58,99 @@ li :hover{
     font-size: 24px;
     border-left: 1px solid chocolate;
 }
-.MenuColunna li{
+
+.MenuColunna li {
     text-decoration: none;
     list-style: none;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
 }
-.MenuColunna{
+
+.MenuColunna {
     position: absolute;
     margin-top: 060px;
     right: 0;
     background-color: rgba(109, 6, 92, 0.281);
 }
+
 .hidden {
     display: none;
-  }
-  
+}
+
 .visible {
     display: flex;
-  }
-  .Ocultar{
+}
+
+.Ocultar {
     color: white;
     margin-right: 10px;
-  }
-  .Mostrar{
-   color: chocolate;
-  }
+}
+
+.Mostrar {
+    color: chocolate;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .menuScrunPhone {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    .MenuBar {
+        display: none;
+
+    }
+
+    .name {
+        font-size: 16px;
+        margin-left: -5%;
+        margin-top: 8%;
+    }
+  
+    .containermain {
+        display: flex;
+        flex-direction: column;
+        margin: 24%;
+        padding-top: 45%;
+        padding-bottom: 10%;
+    }
+
+    .cont:hover {
+        padding-right: 40px;
+        padding-left: 40px;
+
+    }
+
+    .middle {
+        margin-left: 5%;
+    }
+
+    .fondo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-left: 3%;
+    }
+
+    .container h1 {
+        margin-left: -20%;
+    }
+    .studios{
+        margin-left: 5%;
+    }
+    .skill-icon{
+        width: 55px;
+        padding-left: -10px;
+    }
+    .icon1{
+        margin-left: -20px;
+    }
+    .iconB{
+        width: 12px;
+        background-color: aqua;
+    }
+}
