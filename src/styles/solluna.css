@@ -1,13 +1,13 @@
 /* Tema de día */
 body.day-theme {
-    background: linear-gradient(to bottom, rgb(48, 47, 47) 70%, rgb(58, 3, 58));
+    background: linear-gradient(to bottom, rgb(48, 47, 47), rgb(58, 3, 58));
     transition: background 0.5s ease-in-out;
     box-shadow: none; /* Desactiva cualquier sombra global */
   }
   
   /* Tema de noche */
   body.night-theme {
-    background: linear-gradient(to bottom, rgb(18, 6, 73)70%, rgb(48, 47, 47));
+    background: linear-gradient(to bottom, rgb(18, 6, 73), rgb(48, 47, 47));
     transition: background 0.5s ease-in-out;
     box-shadow: none; /* Puedes agregar sombras si necesitas */
   }
