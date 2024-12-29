@@ -11,6 +11,9 @@ import SolLuna from './pages/solLuna'
 import Telecomunicaciones from './pages/telecomunicaciones'
 
 function App() {
+  particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.js loaded - callback');
+});
 
   return (
     <>
