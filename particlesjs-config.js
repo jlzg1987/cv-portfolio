@@ -1,4 +1,4 @@
-
+particlesJS(
 {
   "particles": {
     "number": {
@@ -109,3 +109,4 @@
   },
   "retina_detect": true
 }
+)
