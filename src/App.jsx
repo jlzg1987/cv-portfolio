@@ -10,7 +10,7 @@ import ToolBar from './pages/toolBar'
 import SolLuna from './pages/solLuna'
 import Telecomunicaciones from './pages/telecomunicaciones'
 import { NieveEffect } from './assets/NieveEffect'
-import PartculasApp from './components/Particulas'
+
 function App() {
 
 
@@ -18,7 +18,6 @@ function App() {
     <>
       <div className='ConterMain'>
  
-        <PartculasApp/>
         <BarMainPager />
         <SolLuna/>
         <ToolBar/>
