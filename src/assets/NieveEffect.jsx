@@ -95,7 +95,7 @@ export const NieveEffect = ({canvasRef}) => {
   };
 
   useEffect(() => {
-    const canvas = <canvasRef className="current"></canvasRef>;
+    const canvas = canvasRef.current;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 

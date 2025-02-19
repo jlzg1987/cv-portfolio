@@ -5,13 +5,15 @@ export function NieveComponente() {
   const canvasRef = useRef(null);
   return (
     <Container >
-      <canvas ref={canvasRef}>estoy aqui en cavas</canvas>
+      <canvas ref={canvasRef}></canvas>
       <NieveEffect canvasRef={canvasRef} />
     </Container>
   );
 }
 const Container = styled.div`
   position: absolute;
+   height: 100vh;
+    width: 100%;
   top: 0;
   left: 0;
   canvas {
