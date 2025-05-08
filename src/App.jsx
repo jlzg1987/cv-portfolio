@@ -11,13 +11,15 @@ import SolLuna from './pages/solLuna'
 import Telecomunicaciones from './pages/telecomunicaciones'
 import { NieveEffect } from './assets/NieveEffect'
 
+
 function App() {
 
 
   return (
     <>
+   
       <div className='ConterMain'>
-      
+
         <BarMainPager />
         <SolLuna/>
         <ToolBar/>
