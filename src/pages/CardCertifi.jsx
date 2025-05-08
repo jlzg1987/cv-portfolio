@@ -9,17 +9,17 @@ function CardCertifi() {
   const images = [{
     "imgA": Utelvt,
     "titulo": "Ingeneria en Sistema",
-      "uni": "Universidad Tecnica Luis Vargas Torres"
+    "uni": "Universidad Tecnica Luis Vargas Torres"
   }
     , {
-      "imgA": TechU,
-      "titulo": "Maestria Ingeneria en Telecomunicaciones",
-      "uni": "Universidad Tecnoligica TECH"
-    },{
-      "imgA": Academlo,
-      "titulo": "Developer FullStack",
-      "uni": "Academia Academlo"
-    }
+    "imgA": TechU,
+    "titulo": "Maestria Ingeneria en Telecomunicaciones",
+    "uni": "Universidad Tecnoligica TECH"
+  }, {
+    "imgA": Academlo,
+    "titulo": "Developer FullStack",
+    "uni": "Academia Academlo"
+  }
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
@@ -30,37 +30,37 @@ function CardCertifi() {
   }, [images.length]);
   return (
     <div className='skill' style={styles.carouselContainer}>
-       <h3 className='titulo'>Mis Estudios</h3>
-    <img className='imgcard'
-      src={images[currentIndex].imgA}
-      alt={`Imagen ${currentIndex + 1}`}
-      style={styles.image}
-    />
-    <span className='univ'>{images[currentIndex].uni}</span>
-    <span className='title'>{images[currentIndex].titulo}</span>
-    <div style={styles.indicators}>
-      {images.map((_, index) => (
-        <div
-          key={index}
-          style={{
-            ...styles.indicator,
-            backgroundColor: index === currentIndex ? "blue" : "gray",
-          }}
-        >
-         
+      <h3 className='titulo'>Mis Estudios</h3>
+      <img className='imgcard'
+        src={images[currentIndex].imgA}
+        alt={`Imagen ${currentIndex + 1}`}
+        style={styles.image}
+      />
+      <span className='univ'>{images[currentIndex].uni}</span>
+      <span className='title'>{images[currentIndex].titulo}</span>
+      <div style={styles.indicators}>
+        {images.map((_, index) => (
+          <div
+            key={index}
+            style={{
+              ...styles.indicator,
+              backgroundColor: index === currentIndex ? "blue" : "gray",
+            }}
+          >
 
-        </div>
-      ))}
+
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
 }
 
 const styles = {
   carouselContainer: {
     position: "relative",
-    width: "250px",
-    height: "400px",
+    width: "300px",
+    height: "450px",
     margin: "auto",
     overflow: "hidden",
   },
@@ -70,16 +70,16 @@ const styles = {
     width: "85%",
     height: "70%",
     objectFit: "cover",
-    
+
     marginBottom: "10px",
     padding: "5px",
-    borderRadius:"20%",
+    borderRadius: "20%",
     border: "3px solid chocolate",
     boxShadow: "5px 5px 15px chocolate",
-   
-   },
-  
-  
+
+  },
+
+
   indicators: {
     position: "absolute",
     bottom: "10px",
@@ -87,9 +87,9 @@ const styles = {
     transform: "translateX(-50%)",
     display: "flex",
     gap: "8px",
-    
+
   },
- 
+
   indicator: {
     width: "12px",
     height: "12px",
